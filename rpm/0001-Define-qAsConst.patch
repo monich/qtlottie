@@ -1,0 +1,11 @@
+--- a/src/bodymovin/bmglobal.h
++++ b/src/bodymovin/bmglobal.h
+@@ -38,6 +38,8 @@
+ #  define BODYMOVIN_EXPORT Q_DECL_IMPORT
+ #endif
+ 
++#define qAsConst(x) x
++
+ QT_BEGIN_NAMESPACE
+ QT_END_NAMESPACE
+ 
